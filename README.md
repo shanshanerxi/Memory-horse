@@ -1,4 +1,6 @@
 ![image](https://github.com/shanshanerxi/Memory-horse/assets/126464165/7d39f92a-5765-4042-9f70-414818ef44d2)
+![image](https://github.com/shanshanerxi/Memory-horse/assets/126464165/cfea6a9d-a2fb-4561-9573-78b355256089)
+
 # 捉妖记：内存马的现形术与封印大法
 
 ### 内存马原理
