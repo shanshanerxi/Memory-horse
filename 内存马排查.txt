@@ -1,0 +1,9 @@
+java内存马原理：通过在Java虚拟机（JVM）中运行的恶意代码，实现对被攻击者系统的远程控
+制。其原理是通过在Java虚拟机中注入特定的Java类、变量或方法等Java对象，然后在Java虚拟
+机中运行这些代码，实现对受害者机器的远程控制
+java内存马排查：
+利用Java Agent技术遍历所有已经加载到内存中的class。
+先判断是否是内存马，是则进入内存查杀。
+识别：1，filter名字很特别 2，filter优先级是第一位 3，对比web.xml中没有filter配置 
+4，特殊classloader加载 5，对应的classloader路径下没有class文件 7，Filter的doFilter方法中有恶意代码
+清除：1、清除内存马中的Filter的恶意代码，2、 模拟中间件注销Filter
